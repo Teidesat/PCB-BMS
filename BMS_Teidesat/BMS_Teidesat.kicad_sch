@@ -9030,10 +9030,6 @@
 		(uuid "5fd7b438-1ce3-409b-8bfe-277b0b6f61aa")
 	)
 	(no_connect
-		(at 481.33 133.35)
-		(uuid "608e58de-2593-434e-8c37-dd4aaa9cd1dd")
-	)
-	(no_connect
 		(at 539.75 52.07)
 		(uuid "6167b26b-532a-4d83-b157-be101c3bb204")
 	)
@@ -9268,10 +9264,6 @@
 	(no_connect
 		(at 494.03 207.01)
 		(uuid "acd25c07-38c0-44ca-91ac-ac6ebf4f1cc0")
-	)
-	(no_connect
-		(at 481.33 118.11)
-		(uuid "b2a89157-7689-4359-8d32-294fb833aac7")
 	)
 	(no_connect
 		(at 231.14 180.34)
@@ -9665,7 +9657,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 39.37) (xy 209.55 39.37)
+			(xy 469.9 118.11) (xy 481.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139e4fbf-dec1-4fda-84af-42f569de238a")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 208.28 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10055,7 +10057,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 39.37) (xy 219.71 39.37)
+			(xy 209.55 39.37) (xy 219.71 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10165,7 +10167,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 41.91) (xy 208.28 41.91)
+			(xy 196.85 41.91) (xy 208.28 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10315,7 +10317,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 39.37) (xy 260.35 39.37)
+			(xy 271.78 39.37) (xy 260.35 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11235,6 +11237,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 133.35) (xy 481.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9189d2-cc8a-4a0d-a78a-8d4b14d9596e")
+	)
+	(wire
+		(pts
 			(xy 204.47 144.78) (xy 204.47 147.32)
 		)
 		(stroke
@@ -11574,7 +11586,7 @@
 		(uuid "3f5427e5-7d62-4dd0-9870-18756aaae48f")
 	)
 	(label "+BATTERY"
-		(at 209.55 39.37 180)
+		(at 208.28 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11663,6 +11675,16 @@
 		)
 		(uuid "80bfaf68-02a6-4316-a8aa-0bc9d648b2f4")
 	)
+	(label "CONTROL1"
+		(at 469.9 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85a770dd-8d89-491e-94d9-c94e2fd27dd7")
+	)
 	(label "RESET"
 		(at 473.71 113.03 0)
 		(effects
@@ -11723,8 +11745,8 @@
 		)
 		(uuid "b1a8dc8c-ea24-4fed-b3d2-4f240e42f949")
 	)
-	(label "CONTROL"
-		(at 269.24 39.37 180)
+	(label "CONTROL2"
+		(at 271.78 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11783,6 +11805,16 @@
 		)
 		(uuid "e0a1f06f-f5a1-4b48-b28c-95df902eac53")
 	)
+	(label "CONTROL2"
+		(at 469.9 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea1107e0-ffcc-4ead-a52c-b788a9a45638")
+	)
 	(label "CS"
 		(at 222.25 114.3 0)
 		(effects
@@ -11813,8 +11845,8 @@
 		)
 		(uuid "fbe9fd25-11e6-4519-8d91-0546209cf792")
 	)
-	(label "CONTROL"
-		(at 210.82 39.37 0)
+	(label "CONTROL1"
+		(at 209.55 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17019,7 +17051,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 195.58 39.37 0)
+		(at 191.77 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17028,7 +17060,7 @@
 		(fields_autoplaced yes)
 		(uuid "50de1ae4-10c9-439b-8d44-915283660bd0")
 		(property "Reference" "J2"
-			(at 194.31 41.9101 0)
+			(at 190.5 41.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17037,7 +17069,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 194.31 39.3701 0)
+			(at 190.5 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17046,7 +17078,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Left"
-			(at 195.58 39.37 0)
+			(at 191.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17055,7 +17087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 39.37 0)
+			(at 191.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17064,7 +17096,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 39.37 0)
+			(at 191.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
